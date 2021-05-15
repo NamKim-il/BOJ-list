@@ -6,4 +6,4 @@
 
 * 대부분 `(문제 번호) (문제이름).cpp` 의 형식으로 되어있습니다!
 
-* Windows에서는 CodeBlocks mingw gcc로, Mac에서는 gcc로 
+* Windows에서는 CodeBlocks 으로, Mac에서는 VS code로 작성하며, c++17을 이용합니다.

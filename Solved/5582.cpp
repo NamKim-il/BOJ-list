@@ -14,10 +14,11 @@ int main()
                 if(s1[i]==s2[j]) arr[i][j]=1;
             }
             else {
-                if(s1[i-1]==s2[j-1]) arr[i][j]=arr[i-1][j-1]+1;
+                if(s1[i]==s2[j]) arr[i][j]=arr[i-1][j-1]+1;
             }
             ans=max(ans, arr[i][j]);
         }
     }
     cout<<ans;
+
 }
